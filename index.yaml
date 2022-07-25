@@ -2,6 +2,17 @@ apiVersion: v1
 entries:
   nginx:
   - apiVersion: v1
+    appVersion: 1.0.1
+    created: "2022-07-25T09:56:11.703046735Z"
+    description: Nginx deploy
+    digest: 2905f72911fa62d0d96b2b95e9b2bea59b6db75c0be2d3e000a0f558435c2a82
+    keywords:
+    - demo
+    name: nginx
+    urls:
+    - https://github.com/s083r/git-helm-repo/releases/download/nginx-1.0.1/nginx-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v1
     appVersion: 1.0.0
     created: "2022-07-24T17:38:19.931105708Z"
     description: Nginx deploy
