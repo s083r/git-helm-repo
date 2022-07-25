@@ -1,10 +1,10 @@
 deploy:
-  replicas: 2
+  replicas: 1
   strategy:
     custom: true
     strategy: RollingUpdate   #####
     rollingUpdate:
-      maxSurge: 25%
+      maxSurge: 15%
       maxUnavailable: 25%
   image: nginx:1.21
   containerName: nginx
