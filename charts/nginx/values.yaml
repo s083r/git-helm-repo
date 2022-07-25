@@ -1,5 +1,5 @@
 deploy:
-  replicas: 1
+  replicas: 2
   strategy:
     custom: true
     strategy: RollingUpdate   #####
